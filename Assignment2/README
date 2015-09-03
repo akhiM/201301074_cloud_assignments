@@ -1,0 +1,7 @@
+First we start with running the below command which starts POX server.
+
+sudo python ~/pox/pox.py forwarding.l2_multi openflow.discovery --eat-early-packets openflow.spanning_tree --no-flood --hold-down
+
+Then in the other terminal we run the python code.
+Which asks for no. of switches and no. of hosts.And all get created.
+Then on running pingall we see al odd hosts connected to odd ones and even connected to even ones
